@@ -1,26 +1,41 @@
 import { Switch, Route } from 'react-router-dom';
-import AppProvider from './context/AppProvider';
 
 import Home from './pages/Home';
-import About from './pages/About';
-import NewsEditals from './pages/NewsEditals';
+import Contact from './pages/Contact';
+import Fundation from './pages/Fundation';
+import MedicalServices from './pages/MedicalServices';
+import Specialities from './pages/Specialities';
+import Jobs from './pages/Jobs';
+import NewsEvents from './pages/NewsEvents';
 
 import 'bulma/css/bulma.min.css';
 import './App.css';
 import './styles/Header.css';
 import './styles/Body.css';
 import './styles/Footer.css';
+import './styles/newsImages.css';
+import './styles/Loading.css';
+import Editals from './pages/Editals';
+import Scales from './pages/Scales';
+import HumanDoes from './pages/HumanDoes';
+import Institucional from './pages/Institutional';
 
 function App() {
   return (
-    <div className="App">
-    <AppProvider>
+    <div className='App'>
       <Switch>
         <Route exact path="/" component={ Home } />
-        <Route exact path="/sobre" component={ About } />
-        <Route exact path="/conteudo" component={ NewsEditals } />
+        <Route exact path="/fale-conosco" component={ Contact } />
+        <Route exact path="/a-fundação" component={ Fundation } />
+        <Route exact path="/serviços-médicos" component={ MedicalServices } />
+        <Route exact path="/especialidades" component={ Specialities } />
+        <Route exact path="/processo-seletivo" component={ Jobs } />
+        <Route exact path="/institucional" component={ Institucional } />
+        <Route exact path="/eventos-e-notícias" component={ NewsEvents } />
+        <Route exact path="/editais" component={ Editals } />
+        <Route exact path="/escalas" component={ Scales } />
+        <Route exact path="/pacientes-sem-identificação" component={ HumanDoes } />
       </Switch>
-  </AppProvider>
     </div>
   );
 }
