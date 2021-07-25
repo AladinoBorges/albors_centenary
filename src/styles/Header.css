@@ -1,0 +1,16 @@
+.header-image {
+  background-image: url("../images/hero-background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+  position: relative;
+}
+
+.navbar-text {
+  color: whitesmoke;
+}
+
+.have-shadows {
+  text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.329);
+}
