@@ -1,21 +1,20 @@
 function MobileMenu({ show }) {
-
   return (
     <aside className={ show }>
       <ul className="menu-list">
         <li>
           <button className="button is-white is-small">
-            Institucional
+            A Fundação
           </button>
         </li>
         <li>
           <button className="button is-white is-small">
-            Notícias
+            Serviços Médicos
           </button>
         </li>
         <li>
           <button className="button is-white is-small">
-            Editais
+            Especialidades
           </button>
         </li>
         <li>

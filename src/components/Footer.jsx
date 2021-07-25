@@ -1,5 +1,4 @@
 function Footer() {
-
   return (
     <footer className="footer ">
       <div className="content has-text-left is-size-6 is-size-7-mobile footer-shadows">
