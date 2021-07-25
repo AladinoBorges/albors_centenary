@@ -1,0 +1,18 @@
+.loading {
+  align-items: center;
+  background-color: #4c5ad2;
+  color: whitesmoke;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow-x: none;
+  overflow-y: none;
+  width: 100vw;
+}
+
+.btn-loading {
+  border: none;
+  font-size: 100px;
+  height: 200px;
+  width: 200px;
+}

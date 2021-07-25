@@ -1,0 +1,23 @@
+.one {
+  background-image: url('../images/one.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+}
+
+.second {
+  background-image: url('../images/second.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+}
+
+.news-uti {
+  background-image: url('../images/last_news.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+}
