@@ -21,6 +21,7 @@ import './styles/newsImages.css';
 import './styles/Loading.css';
 import './styles/HomeBody.css';
 import './styles/Card.css';
+import './styles/Newsletter.css';
 
 function App() {
   return (

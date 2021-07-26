@@ -18,8 +18,10 @@ function HomeBody() {
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile is-parent">
-            <article class="tile is-child notification is-link more-height has-text-left">
-              <p class="title">Informação Covid-19</p>
+            <article class="tile is-child notification more-height has-text-right first-btn">
+              <br />
+              <br />
+              <p class="title has-text-light">Informação Covid-19</p>
               <p class="subtitle"></p>
               <div class="content">
               </div>
@@ -27,12 +29,20 @@ function HomeBody() {
           </div>
           <div class="tile">
             <div class="tile is-parent is-vertical">
-              <article class="tile is-child notification is-link">
-                <p class="title">Oncologia</p>
+              <article class="tile is-child notification second-btn">
+                <br />
+                <br />
+                <br />
+                <br />
+                <p class="title is-2 has-text-black-ter cards-text">Oncologia</p>
                 <p class="subtitle"></p>
               </article>
-              <article class="tile is-child notification is-link">
-                <p class="title">Horários de Visita</p>
+              <article class="tile is-child notification third-btn">
+                <br />
+                <br />
+                <br />
+                <br />
+                <p class="title is-3 has-text-black-ter cards-text">Horários de Visita</p>
                 <p class="subtitle"></p>
               </article>
             </div>
