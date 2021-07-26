@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/albors_centenary/static/css/main.30276724.chunk.css",
-    "main.js": "/albors_centenary/static/js/main.29893a01.chunk.js",
-    "main.js.map": "/albors_centenary/static/js/main.29893a01.chunk.js.map",
+    "main.js": "/albors_centenary/static/js/main.ae213b3e.chunk.js",
+    "main.js.map": "/albors_centenary/static/js/main.ae213b3e.chunk.js.map",
     "runtime-main.js": "/albors_centenary/static/js/runtime-main.46967934.js",
     "runtime-main.js.map": "/albors_centenary/static/js/runtime-main.46967934.js.map",
     "static/css/2.41953c31.chunk.css": "/albors_centenary/static/css/2.41953c31.chunk.css",
-    "static/js/2.9d39e1f2.chunk.js": "/albors_centenary/static/js/2.9d39e1f2.chunk.js",
-    "static/js/2.9d39e1f2.chunk.js.map": "/albors_centenary/static/js/2.9d39e1f2.chunk.js.map",
+    "static/js/2.96662803.chunk.js": "/albors_centenary/static/js/2.96662803.chunk.js",
+    "static/js/2.96662803.chunk.js.map": "/albors_centenary/static/js/2.96662803.chunk.js.map",
     "index.html": "/albors_centenary/index.html",
     "static/css/2.41953c31.chunk.css.map": "/albors_centenary/static/css/2.41953c31.chunk.css.map",
     "static/css/main.30276724.chunk.css.map": "/albors_centenary/static/css/main.30276724.chunk.css.map",
-    "static/js/2.9d39e1f2.chunk.js.LICENSE.txt": "/albors_centenary/static/js/2.9d39e1f2.chunk.js.LICENSE.txt",
+    "static/js/2.96662803.chunk.js.LICENSE.txt": "/albors_centenary/static/js/2.96662803.chunk.js.LICENSE.txt",
     "static/media/HomeBody.css": "/albors_centenary/static/media/oncologia-c.a1333756.png",
     "static/media/Header.css": "/albors_centenary/static/media/logo.0872db32.png",
     "static/media/hero-background.c5d4cd3c.jpg": "/albors_centenary/static/media/hero-background.c5d4cd3c.jpg",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.46967934.js",
     "static/css/2.41953c31.chunk.css",
-    "static/js/2.9d39e1f2.chunk.js",
+    "static/js/2.96662803.chunk.js",
     "static/css/main.30276724.chunk.css",
-    "static/js/main.29893a01.chunk.js"
+    "static/js/main.ae213b3e.chunk.js"
   ]
 }
