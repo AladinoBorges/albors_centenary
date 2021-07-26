@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import MobileMenu from './MobileMenu';
 
@@ -16,25 +17,25 @@ function NavBar({ selected }) {
   const createNavbarLinks = navbarData.map((string) => {
     if (string === selected) {
       return (
-        <a
-          href={
+        <Link
+          to={
             string.replace(/ /g, '-').toLowerCase()
           }
           className="navbar-item is-active"
         >
           { string }
-        </a>
+        </Link>
       );
     } else {
       return (
-        <a
-          href={
+        <Link
+          to={
             string.replace(/ /g, '-').toLowerCase()
           }
           className="navbar-item"
         >
           { string }
-        </a>
+        </Link>
       );
     }
   });
@@ -47,8 +48,8 @@ function NavBar({ selected }) {
     <nav className="navbar is-white">
       <div className="container">
         <div className="navbar-brand">
-          <a href="/" className="navbar-item logo">
-          </a>
+          <Link to="/" className="navbar-item logo">
+          </Link>
           <span
             onClick={ handleClickOrMouseOver }
             className={ !navBurger ? 'navbar-burger burger' : 'navbar-burger is-active' }

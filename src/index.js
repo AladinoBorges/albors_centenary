@@ -6,7 +6,7 @@ import AppProvider from './context/AppProvider';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={ window.location.pathname || '' }>
     <AppProvider>
       <App />
     </AppProvider>

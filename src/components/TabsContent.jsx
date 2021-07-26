@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Tabs({ selectTab }) {
   const tabsData = [
     { name: 'Home', url: '/' },
@@ -12,17 +14,17 @@ function Tabs({ selectTab }) {
     if (name === selectTab) {
       return (
         <li className="is-active">
-          <a className="is-size-6" href={ url }>
+          <Link className="is-size-6" to={ url }>
             <span>{ name }</span>
-          </a>
+          </Link>
         </li>
       );
     } else {
       return (
         <li>
-          <a className="is-size-6" href={ url }>
+          <Link className="is-size-6" to={ url }>
             <span>{ name }</span>
-          </a>
+          </Link>
         </li>
       );
     }
