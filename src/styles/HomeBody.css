@@ -1,0 +1,11 @@
+.home-body {
+  align-items: center;
+  display: block;
+  margin: 100px auto;
+  min-height: 40vh;
+  width: 80vw;
+}
+
+.more-height {
+  height: 200px;
+}
