@@ -15,38 +15,38 @@ function HomeBody() {
   const { first } = cards;
   return (
     <div className="home-body">
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile is-parent">
-            <article class="tile is-child notification more-height has-text-right first-btn">
+      <div className="tile is-ancestor">
+        <div className="tile is-vertical is-12">
+          <div className="tile is-parent">
+            <article className="tile is-child notification has-text-right first-btn more-height mouse-over">
               <br />
               <br />
-              <p class="title has-text-light">Informações Covid-19</p>
-              <p class="subtitle"></p>
-              <div class="content">
+              <p className="title has-text-light">Informações Covid-19</p>
+              <p className="subtitle"></p>
+              <div className="content">
               </div>
             </article>
           </div>
-          <div class="tile">
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child notification second-btn">
+          <div className="tile">
+            <div className="tile is-parent is-vertical">
+              <article className="tile is-child notification second-btn mouse-over">
                 <br />
                 <br />
                 <br />
                 <br />
-                <p class="title is-2 has-text-black-ter cards-text">Oncologia</p>
-                <p class="subtitle"></p>
+                <p className="title is-2 has-text-black-ter cards-text">Oncologia</p>
+                <p className="subtitle"></p>
               </article>
-              <article class="tile is-child notification third-btn">
+              <article className="tile is-child notification third-btn mouse-over">
                 <br />
                 <br />
                 <br />
                 <br />
-                <p class="title is-3 has-text-black-ter cards-text">Horários de Visita</p>
-                <p class="subtitle"></p>
+                <p className="title is-3 has-text-black-ter cards-text">Horários de Visita</p>
+                <p className="subtitle"></p>
               </article>
             </div>
-            <div class="tile is-parent">
+            <div className="tile is-parent">
               <Card
                 image={ first.image }
                 title={ first.title }
@@ -54,7 +54,7 @@ function HomeBody() {
                 content={ first.content }
               />
             </div>
-            <div class="tile is-parent">
+            <div className="tile is-parent">
               <Card />
             </div>
           </div>

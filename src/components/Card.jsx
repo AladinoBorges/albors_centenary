@@ -4,21 +4,21 @@ const default_content = 'Lorem ipsum, dolor sit amet consectetur adipisicing eli
 
 function Card({ image = heroPeople, title = 'Título', subtitle = 'Subtítulo', content = default_content }) {
   return (
-    <div class="card">
-      <div class="card-image">
-        <figure class="image is-4by3">
+    <div className="card mouse-over">
+      <div className="card-image">
+        <figure className="image is-4by3">
           <img src={ image } alt="Placeholder" />
         </figure>
       </div>
-      <div class="card-content has-text-left">
-        <div class="media">
-          <div class="media-content no-overflow">
-            <p class="title is-6">{ title }</p>
-            <p class="subtitle is-7">{ subtitle }</p>
+      <div className="card-content has-text-left">
+        <div className="media">
+          <div className="media-content no-overflow">
+            <p className="title is-6">{ title }</p>
+            <p className="subtitle is-7">{ subtitle }</p>
           </div>
         </div>
 
-        <div class="content">
+        <div className="content">
           { content }
           <p>...</p>
         </div>
