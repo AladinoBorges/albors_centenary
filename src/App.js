@@ -7,18 +7,20 @@ import MedicalServices from './pages/MedicalServices';
 import Specialities from './pages/Specialities';
 import Jobs from './pages/Jobs';
 import NewsEvents from './pages/NewsEvents';
-
-import 'bulma/css/bulma.min.css';
-import './App.css';
-import './styles/Header.css';
-import './styles/Body.css';
-import './styles/Footer.css';
-import './styles/newsImages.css';
-import './styles/Loading.css';
 import Editals from './pages/Editals';
 import Scales from './pages/Scales';
 import HumanDoes from './pages/HumanDoes';
 import Institucional from './pages/Institutional';
+
+import 'bulma/css/bulma.min.css';
+import './App.css';
+import './styles/Header.css';
+import './styles/NewsBody.css';
+import './styles/Footer.css';
+import './styles/newsImages.css';
+import './styles/Loading.css';
+import './styles/HomeBody.css';
+import './styles/Card.css';
 
 function App() {
   return (
