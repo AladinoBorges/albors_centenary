@@ -1,0 +1,39 @@
+.home-body {
+  align-items: center;
+  display: block;
+  margin: 100px auto;
+  min-height: 40vh;
+  width: 80vw;
+}
+
+.more-height {
+  height: 200px;
+}
+
+.first-btn {
+  background-image: url('../images/covid-a.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+}
+
+.second-btn {
+  background-image: url('../images/oncologia-c.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+}
+
+.third-btn {
+  background-image: url('../images/horarios.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+}
+
+.cards-text p {
+  color: blue;
+}

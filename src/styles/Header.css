@@ -1,0 +1,32 @@
+.header-image {
+  background-image: url("../images/hero-background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+  position: relative;
+}
+
+.logo {
+  background-image: url('../images/logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+  height: 65px;
+  margin-left: 13px;;
+  width: 65px;
+}
+
+.navbar-text {
+  color: whitesmoke;
+}
+
+.have-shadows {
+  text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.329);
+}
+
+.burger {
+  height: 65px;
+  width: 65px;
+}
