@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function NewsBody() {
-  const [isHidden] = useState(false);
+  const [isHidden] = useState(false); // Retirar isso.
 
   return (
     <main className={ isHidden ? 'is-hidden' : 'main-content'}>

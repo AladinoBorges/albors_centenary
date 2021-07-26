@@ -21,7 +21,7 @@ function HomeBody() {
             <article class="tile is-child notification more-height has-text-right first-btn">
               <br />
               <br />
-              <p class="title has-text-light">Informação Covid-19</p>
+              <p class="title has-text-light">Informações Covid-19</p>
               <p class="subtitle"></p>
               <div class="content">
               </div>
