@@ -7,6 +7,7 @@ import Tabs from '../components/TabsContent';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Loading from '../components/Loading';
+import HomeBody from '../components/HomeBody';
 
 function Home() {
   const { globalState, setGlobalState } = useContext(AppContext);
@@ -34,6 +35,7 @@ function Home() {
       <NavBar />
       <Hero />
       <Tabs selectTab={ 'Home' } />
+      <HomeBody />
       <Footer />
     </div>
   );

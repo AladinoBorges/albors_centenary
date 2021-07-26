@@ -1,4 +1,4 @@
-import Body from "../components/Body";
+import NewsBody from "../components/NewsBody";
 import Footer from "../components/Footer";
 import Hero from "../components/Header";
 import NavBar from "../components/NavBar";
@@ -10,7 +10,7 @@ function NewsEditals() {
       <NavBar />
       <Hero />
       <Tabs selectTab={ 'Eventos e Notícias' } />
-      <Body />
+      <NewsBody />
       <Footer />
     </div>
   );
