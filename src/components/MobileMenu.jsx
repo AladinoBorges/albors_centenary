@@ -3,29 +3,29 @@ function MobileMenu({ show }) {
     <aside className={ show }>
       <ul className="menu-list">
         <li>
-          <button className="button is-white is-small">
+          <a href="/a-fundação" className="button is-white is-small">
             A Fundação
-          </button>
+          </a>
         </li>
         <li>
-          <button className="button is-white is-small">
+          <a href="/serviços-médicos" className="button is-white is-small">
             Serviços Médicos
-          </button>
+          </a>
         </li>
         <li>
-          <button className="button is-white is-small">
+          <a href="/especialidades" className="button is-white is-small">
             Especialidades
-          </button>
+          </a>
         </li>
         <li>
-          <button className="button is-white is-small">
+          <a href="/processo-seletivo" className="button is-white is-small">
             Processo Seletivo
-          </button>
+          </a>
         </li>
         <li>
-          <button className="button is-white is-small">
+          <a href="/fale-conosco" className="button is-white is-small">
             Fale Conosco
-          </button>
+          </a>
         </li>
       </ul>
     </aside>
