@@ -1,31 +1,33 @@
+import { Link } from 'react-router-dom';
+
 function MobileMenu({ show }) {
   return (
     <aside className={ show }>
       <ul className="menu-list">
         <li>
-          <a href="/a-fundação" className="button is-white is-small">
+          <Link to="/a-fundação" className="button is-white is-small">
             A Fundação
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/serviços-médicos" className="button is-white is-small">
+          <Link to="/serviços-médicos" className="button is-white is-small">
             Serviços Médicos
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/especialidades" className="button is-white is-small">
+          <Link to="/especialidades" className="button is-white is-small">
             Especialidades
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/processo-seletivo" className="button is-white is-small">
+          <Link to="/processo-seletivo" className="button is-white is-small">
             Processo Seletivo
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/fale-conosco" className="button is-white is-small">
+          <Link to="/fale-conosco" className="button is-white is-small">
             Fale Conosco
-          </a>
+          </Link>
         </li>
       </ul>
     </aside>
